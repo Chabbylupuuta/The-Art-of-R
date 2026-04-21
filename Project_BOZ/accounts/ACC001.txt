@@ -1,1 +1,15 @@
-
+======================================================
+          BANK OF ZAMBIA - ACCOUNT DETAILS
+======================================================
+Account ID:        ACC001
+Client Name:       John Banda
+Account Type:      Savings Account
+Balance:           ZMW 5000.00
+Currency:          Zambian Kwacha (ZMW)
+Date Created:      2024-04-21
+Last Updated:      2024-04-21
+Status:            Active
+Account Manager:   Ms. Patricia Mwale
+Phone:             +260 211 123456
+Email:             support@boz.zm
+======================================================
