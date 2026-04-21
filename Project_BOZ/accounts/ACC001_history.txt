@@ -1,0 +1,17 @@
+======================================================
+     BANK OF ZAMBIA - TRANSACTION HISTORY
+======================================================
+Account ID: ACC001
+Client Name: John Banda
+Period: All Transactions
+======================================================
+
+Date       | Type        | Amount (ZMW) | Balance (ZMW) | Description
+--------------------------------------------------------------
+2024-04-21 | Initial Deposit | 5000.00      | 5000.00       | Account opened
+
+======================================================
+Total Deposits:    ZMW 5000.00
+Total Withdrawals: ZMW 0.00
+Current Balance:   ZMW 5000.00
+======================================================
