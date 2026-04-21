@@ -1,1 +1,13 @@
+# Simple scatter plot
+plot(mtcars$wt, mtcars$mpg,
+     xlab = "Weight (1000 lbs)", ylab = "Miles per Gallon",
+     main = "MPG vs Weight", col = "blue", pch = 16)
 
+# Add a line (e.g., linear model)
+abline(lm(mpg ~ wt, data = mtcars), col = "red", lwd = 2)
+
+# Histogram
+hist(mtcars$mpg, breaks = 10, col = "skyblue", main = "MPG Distribution")
+
+# Bar plot (for categorical data)
+barplot(table(mtcars$cyl), col = "orange", xlab = "Cylinders", ylab = "Count")
