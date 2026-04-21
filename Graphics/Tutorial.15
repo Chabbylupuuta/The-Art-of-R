@@ -11,3 +11,21 @@ hist(mtcars$mpg, breaks = 10, col = "skyblue", main = "MPG Distribution")
 
 # Bar plot (for categorical data)
 barplot(table(mtcars$cyl), col = "orange", xlab = "Cylinders", ylab = "Count")
+library(ggplot2)
+
+# Scatter plot
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point(color = "blue", size = 3) +
+  geom_smooth(method = "lm", se = FALSE, color = "red") +
+  labs(title = "MPG vs Weight", x = "Weight (1000 lbs)", y = "MPG") +
+  theme_minimal()
+
+# Histogram
+ggplot(mtcars, aes(x = mpg)) +
+  geom_histogram(binwidth = 2, fill = "skyblue", color = "black") +
+  ggtitle("MPG Distribution")
+
+# Bar plot
+ggplot(mtcars, aes(x = factor(cyl))) +
+  geom_bar(fill = "orange") +
+  xlab("Cylinders") + ylab("Count")
