@@ -1,4 +1,4 @@
-# 📉 Tutorial 15: Basic Data Visualization in R 🎨
+# 📉 Tutorial 16: Basic Data Visualization in R 🎨
 
 Welcome to the **Data Visualization** module! This section demonstrates how to translate complex financial ledgers into intuitive, high-impact graphics. In Credit Control, a well-crafted chart is the fastest way to communicate risk to management. 🇿🇲
 
